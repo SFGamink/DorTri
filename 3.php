@@ -31,7 +31,7 @@ if (strpos(json_encode($login), '"status":true')) {
     echo @color('blue', "$poin Poin\n");
     cek:
     echo @color("nevy","\n╔════════════════꧁ঔৣ☬⫸༒•ೋೋ•༒⫷☬ঔৣ꧂════════════════╗\n");
-    echo @color('yellow', "\nMENU PAKET:\n");
+    echo @color('yellow', "\n DAFTAR MENU PAKET:\n");
     echo @color('green', "
  [ 1  ] Welcome Reward 5GB \t: Rp 1.
  [ 2  ] 18GB 7   Hari  \t\t: Rp 5.000.
@@ -135,16 +135,16 @@ if (strpos(json_encode($login), '"status":true')) {
     echo @color('yellow', "$price\n");
     echo @color('purple', "DESKRIPSI\t: ");
     echo @color('white', "\n$deskripsi\n");
-    echo @color('nevy', "\n╚══════❨ S34N ❩══꧁ঔৣ☬⫸ (Y/N) : ");
+    echo @color('nevy', "\nNU IEU ? (Y/N) : ");
     $aa = trim(fgets(STDIN));
     if(strtolower($aa) !== 'y') {
         goto cek;
     }
     $beli = beli($nomor,$plan,$secret,$prodid);
     if ($beli['status'] == true) {
-        echo @color('green', "Done Cok Coba Cek SMS Nya !!!");
+        echo @color('green', "/nDone Cok Coba Cek SMS Nya !!!");
     } else {
-        echo @color('red', "Yahhh Gagal Bro,Coba Lagi Nanti Yee !!!");
+        echo @color('red', "/nYahhh Gagal Bro,Coba Lagi Nanti Yee !!!");
     }
 
 
