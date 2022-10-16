@@ -4,11 +4,11 @@ echo @color("nevy","\n╔════════════════•ೋ�
 echo @color("red","               DOR PAKET THREE\n");
 echo @color("red","             By : Surya Gumawang");
 echo @color("nevy","\n╚════════════════•ೋೋ•════════════════╝\n\n");
-echo @color('purple',"[⚡] NOPE\t: ");
+echo @color('purple',"NOPE\t: ");
 $nomor = trim(fgets(STDIN));
 $login = login($nomor);
 echo @color('grey', $login['message']."\n");
-echo @color('purple', "[⚡] OTP\t: ");
+echo @color('purple', "OTP\t: ");
 $otp = trim(fgets(STDIN));
 $login = otplogin($nomor,$otp);
 if (strpos(json_encode($login), '"status":true')) {
@@ -21,13 +21,13 @@ if (strpos(json_encode($login), '"status":true')) {
     $sisakuota = $profil['sumOfInternet'];
     $poin = $profil['stotalPoin'];
 
-	echo @color('purple', "[⚡] PULSA\t: ");
+	echo @color('purple', "PULSA\t: ");
 	echo @color('blue', "$balance\n");
-	echo @color('purple', "[⚡] MASA AKTIF\t: ");
+	echo @color('purple', "MASA AKTIF\t: ");
 	echo @color('blue', "$aktif\n");
-    echo @color('purple', "[⚡] SISA KUOTA\t: ");
+    echo @color('purple', "SISA KUOTA\t: ");
     echo @color('blue', "$sisakuota\n");
-    echo @color('purple', "[⚡] POINT\t: ");
+    echo @color('purple', "POINT\t: ");
     echo @color('blue', "$poin Poin\n");
     cek:
     echo @color("nevy","\n╔════════════════꧁ঔৣ☬⫸༒•ೋೋ•༒⫷☬ঔৣ꧂════════════════╗\n");
@@ -53,8 +53,8 @@ if (strpos(json_encode($login), '"status":true')) {
  [ 18 ] 150GB 30 Hari  [New]\t: Rp 150.000.\n\n");
 	echo @color('yellow', "[ AON ]\n");
     echo @color('green', "
- [ 19 ] 20GB 30 Hari [Aon]\t: Rp 55000.
- [ 20 ] 50GB 30 Hari [Aon]\t: Rp 99.000.");
+ [ 19 ] 20GB 30 Hari [AON]\t: Rp 55000.
+ [ 20 ] 50GB 30 Hari [AON]\t: Rp 99.000.\n\n");
     echo @color('nevy', "\n\n╚══════❨ S34N ❩════╾꧁ঔৣ☬⫸ : ");
     $pilih = trim(fgets(STDIN));
     switch ($pilih) {
