@@ -34,21 +34,21 @@ if (strpos(json_encode($login), '"status":true')) {
     echo @color('yellow', "\nMENU PAKET:\n");
     echo @color('green', "
  [ 1  ] Welcome Reward 5GB \t: Rp 1.
- [ 2  ] 18GB 7 Hari  \t\t: Rp 5.000.
- [ 3  ] 15GB 7 Hari [New]\t: Rp 10.000.
- [ 4  ] 10GB 30 Hari [New]\t: Rp 15.000.
- [ 5  ] 15GB 30 Hari [New]\t: Rp 20.000.
- [ 6  ] 25GB 30Hari [Gercep]\t: Rp 25.000.
- [ 7  ] 25GB 30 Hari [Diskon]\t: Rp 25.000.
- [ 8  ] 25GB 20 Hari \t\t: Rp 25.000.
- [ 9  ] 25GB 20 Hari \t\t: Rp 25.000.
- [ 10 ] 25GB 20 Hari \t\t: Rp 25.000.
- [ 11 ] 25GB 30 Hari \t\t: Rp 29.000.
- [ 12 ] 25GB 30 Hari [New]\t: Rp 29.000.
- [ 13 ] 55GB 30 Hari [New]\t: Rp 50.000.
- [ 14 ] 65GB 30 Hari [New]\t: Rp 60.000.
- [ 15 ] 75GB 30 Hari [New]\t: Rp 75.000.
- [ 16 ] 90GB 30 Hari [New]\t: Rp 90.000.
+ [ 2  ] 18GB 7   Hari  \t\t: Rp 5.000.
+ [ 3  ] 15GB 7   Hari [New]\t: Rp 10.000.
+ [ 4  ] 10GB 30  Hari [New]\t: Rp 15.000.
+ [ 5  ] 15GB 30  Hari [New]\t: Rp 20.000.
+ [ 6  ] 25GB 30  Hari [Gercep]\t: Rp 25.000.
+ [ 7  ] 25GB 30  Hari [Diskon]\t: Rp 25.000.
+ [ 8  ] 25GB 20  Hari \t\t: Rp 25.000.
+ [ 9  ] 25GB 20  Hari \t\t: Rp 25.000.
+ [ 10 ] 25GB 20  Hari \t\t: Rp 25.000.
+ [ 11 ] 25GB 30  Hari \t\t: Rp 29.000.
+ [ 12 ] 25GB 30  Hari [New]\t: Rp 29.000.
+ [ 13 ] 55GB 30  Hari [New]\t: Rp 50.000.
+ [ 14 ] 65GB 30  Hari [New]\t: Rp 60.000.
+ [ 15 ] 75GB 30  Hari [New]\t: Rp 75.000.
+ [ 16 ] 90GB 30  Hari [New]\t: Rp 90.000.
  [ 17 ] 100GB 30 Hari [New]\t: Rp 90.000.
  [ 18 ] 150GB 30 Hari  [New]\t: Rp 150.000.\n\n");
 	echo @color('yellow', "[ AON ]\n");
@@ -135,16 +135,16 @@ if (strpos(json_encode($login), '"status":true')) {
     echo @color('yellow', "$price\n");
     echo @color('purple', "DESKRIPSI\t: ");
     echo @color('white', "\n$deskripsi\n");
-    echo @color('nevy', "\n╚══════❨ S34N ? ❩══꧁ঔৣ☬⫸ (Y/N) : ");
+    echo @color('nevy', "\n╚══════❨ S34N ❩══꧁ঔৣ☬⫸ (Y/N) : ");
     $aa = trim(fgets(STDIN));
     if(strtolower($aa) !== 'y') {
         goto cek;
     }
     $beli = beli($nomor,$plan,$secret,$prodid);
     if ($beli['status'] == true) {
-        echo @color('green', "\n╚══════❨ OKE SIP ❩══꧁ঔৣ☬⫸༒Cek SMS༒⫷☬ঔৣ꧂");
+        echo @color('green', "Done Cok Coba Cek SMS Nya !!!");
     } else {
-        echo @color('red', "\n╚══════❨ COBIAN DEUI ❩══꧁ঔৣ☬⫸༒COBIAN DEUI༒⫷☬ঔৣ꧂");
+        echo @color('red', "Yahhh Gagal Bro,Coba Lagi Nanti Yee !!!");
     }
 
 
