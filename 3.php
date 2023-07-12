@@ -39,7 +39,7 @@ if (strpos(json_encode($login), '"status":true')) {
  [ 4  ] 10GB 30  Hari [New]\t: Rp 15.000.
  [ 5  ] 15GB 30  Hari [New]\t: Rp 20.000.
  [ 6  ] 25GB 30  Hari [Gercep]\t: Rp 25.000.
- [ 7  ] 25GB 30  Hari [Diskon]\t: Rp 25.000.
+ [ 7  ] 20GB 30  Hari [Diskon]\t: Rp 25.000.
  [ 8  ] 25GB 20  Hari \t\t: Rp 25.000.
  [ 9  ] 25GB 20  Hari \t\t: Rp 25.000.
  [ 10 ] 25GB 20  Hari \t\t: Rp 25.000.
@@ -77,7 +77,7 @@ if (strpos(json_encode($login), '"status":true')) {
             $prodid = '22635';
             break;
             case '7':
-            $prodid = '22648';
+            $prodid = '26621';
             break;
             case '8':
             $prodid = '23160';
