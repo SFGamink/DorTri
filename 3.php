@@ -34,7 +34,7 @@ if (strpos(json_encode($login), '"status":true')) {
     echo @color('yellow', "\n DAFTAR MENU PAKET:\n");
     echo @color('green', "
  [ 1  ] 60GB 30  Hari \t\t: Rp 35.000
- [ 2  ] 18GB 7   Hari  \t\t: Rp 5.000.
+ [ 2  ] 30GB 30  Hari  \t\t: Rp 25.000.
  [ 3  ] 15GB 7   Hari [New]\t: Rp 10.000.
  [ 4  ] 10GB 30  Hari [New]\t: Rp 15.000.
  [ 5  ] 15GB 30  Hari [New]\t: Rp 20.000.
@@ -62,7 +62,7 @@ if (strpos(json_encode($login), '"status":true')) {
             $prodid = '28899';
             break;
             case '2':
-            $prodid = '24165';
+            $prodid = '28897';
             break;
             case '3':
             $prodid = '25241';
