@@ -33,7 +33,7 @@ if (strpos(json_encode($login), '"status":true')) {
     echo @color("nevy","\n╔════════════════꧁ঔৣ☬⫸༒•ೋೋ•༒⫷☬ঔৣ꧂════════════════╗\n");
     echo @color('yellow', "\n DAFTAR MENU PAKET:\n");
     echo @color('green', "
- [ 1  ] Welcome Reward 5GB \t: Rp 1.
+ [ 1  ] 60GB 30  Hari \t\t: Rp 35.000
  [ 2  ] 18GB 7   Hari  \t\t: Rp 5.000.
  [ 3  ] 15GB 7   Hari [New]\t: Rp 10.000.
  [ 4  ] 10GB 30  Hari [New]\t: Rp 15.000.
@@ -59,7 +59,7 @@ if (strpos(json_encode($login), '"status":true')) {
     $pilih = trim(fgets(STDIN));
     switch ($pilih) {
             case '1':
-            $prodid = '25669';
+            $prodid = '28899';
             break;
             case '2':
             $prodid = '24165';
